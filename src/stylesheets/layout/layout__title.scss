@@ -1,5 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #1d1d1d;
+  
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 .layout__title {
   font-size: 24pt;
   margin: 0;
-  padding: 20px;
+  padding: 0 10px;
+  margin-right: 150px;
+  background-color: #1d1d1d;
+  color: #FDFBE4;
+  ;
 }
+
+.logo-img {
+  padding: 0 10px;
+  height: 100px;
+  width: 100px;
+}
+

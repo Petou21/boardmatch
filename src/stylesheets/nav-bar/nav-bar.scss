@@ -1,5 +1,9 @@
 .nav-bar {
   display: flex;
-  background-color: #ccc;
-  padding-left: 20px;
+  justify-content: space-evenly; /* O space-between */
+  background-color: #1d1d1d;
+  padding-left: 100px;
+  padding: 10px 0; /* Opcional para agregar espacio vertical */
 }
+
+
