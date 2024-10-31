@@ -10,6 +10,9 @@ export const NavBar = () => {
 
   return (
     <nav className='nav-bar'>
+      <NavLink className={navLinkClass} to='/comunidades'>
+        Comunidades
+      </NavLink>
       <NavLink className={navLinkClass} to='/logros'>
         Logros
       </NavLink>
@@ -18,9 +21,6 @@ export const NavBar = () => {
       </NavLink>
       <NavLink className={navLinkClass} to='/amigos'>
         Amigos
-      </NavLink>
-      <NavLink className={navLinkClass} to='/comunidades'>
-        Comunidades
       </NavLink>
       <NavLink className={navLinkClass} to='/perfil'>
         Perfil

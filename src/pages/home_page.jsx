@@ -1,4 +1,5 @@
 import React from 'react';
+//import Footer from '../components/footer.jsx';
 import { Link } from 'react-router-dom';
 import BannerImage from '../assets/banner.png';
 import FindPPl from '../assets/main1.jpeg';

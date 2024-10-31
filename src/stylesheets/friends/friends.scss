@@ -1,0 +1,82 @@
+  .group-list {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    
+    .group-list h1 {
+      text-align: left;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .cardd-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .group-fiend-card {
+      display: flex;
+      align-items: center;
+      background-color: #DFD7BE;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    .group-image {
+      height: 100px;
+      width: 100px;
+      border: none;
+      border-radius: 50%;
+      border: 1px solid black;
+      object-fit: cover;
+    }
+    
+    .group-content {
+      flex-grow: 1;
+      padding: 10px;
+    }
+    
+    .group-content h2 {
+      font-size: 18px;
+      color: #1d1d1d;
+      margin: 0;
+    }
+    
+    .group-content p {
+      font-size: 14px;
+      color: #666;
+      margin-top: 8px;
+    }
+    
+    .join-button {
+      background-color: #ff6b6b;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+    
+    .join-button:hover {
+      background-color: #ff4d4d;
+    }
+    
+    /* Estilo para el botón cuando está en estado "Unido" */
+    .join-button.joined {
+      background-color: #6bc46b; /* Cambia a verde o cualquier color que prefieras */
+    }
+    
+    
