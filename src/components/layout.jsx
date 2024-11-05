@@ -6,7 +6,9 @@ import Comunity from '../pages/comunity_page'
 import Logros from '../pages/achievements_page'
 import Perfil from '../pages/user_page.jsx'
 import Amigos from '../pages/friends.jsx'
-import Ver from '../pages/view_profile.jsx'
+import Ver_Perfil from '../pages/view_profile.jsx'
+import Ver_Grupo from '../pages/group_pages.jsx'
+import Goals from '../pages/goals_page.jsx'
 
 import Logo from "../assets/logo.png"
 import '../stylesheets/Layout.scss';
@@ -33,7 +35,9 @@ const Layout = () => {
               <Route path='/logros' element={<Logros />} />
               <Route path='/perfil' element={<Perfil />} />
               <Route path='/amigos' element={<Amigos />} />
-              <Route path='/profile/:id' element={<Ver />} />
+              <Route path='/metas' element={<Goals />} />
+              <Route path='/profile/:id' element={<Ver_Perfil />} />
+              <Route path='/group/:id' element={<Ver_Grupo />} />
             </Routes>
         </div>
         <Footer />

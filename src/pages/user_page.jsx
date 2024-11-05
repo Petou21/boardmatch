@@ -10,7 +10,7 @@ const ProfilePage = () => {
           <img src={User} alt="Foto de perfil" />
         </div>
         <div className="profile-page__details">
-          <h2>Nombre del Usuario</h2>
+          <h2>Xavi</h2>
           <p><strong>Nombre real:</strong> Javier Gómez</p>
           <p><strong>Ubicación:</strong> Chile, Paine</p>
           <p><strong>Descripción:</strong> El xavi</p>

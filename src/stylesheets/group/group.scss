@@ -1,0 +1,133 @@
+.group-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    padding: 30px;
+    background-color: #e4daba;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+  
+    &__header {
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    &__photo {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 20px;
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  
+    &__details {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+      h2 {
+        margin: 0 0 10px 0;
+        font-size: 1.8rem;
+        color: #333;
+      }
+  
+      p {
+        margin: 10px 0;
+        font-size: 1rem;
+        color: #555;
+      }
+  
+      strong {
+        color: #333;
+      }
+    }
+  
+    &__foro {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+  
+      h2 {
+        margin-top: 1px;
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+        color: #333;
+      }
+  
+      p {
+        margin: 10px 0;
+        font-size: 1rem;
+        color: #555;
+      }
+    }
+
+    &__foro_container {
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px; 
+        gap: 20px;
+      }
+    &__foro_coment {
+        display: flex;
+        flex-direction: column;
+      }
+       
+}
+.foro_coment {
+  background-color: #fff6d0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px; 
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s; 
+}   
+.usuario-enlace {
+  color: #007bff; /* Color azul para los enlaces */
+  text-decoration: none; /* Sin subrayado */
+  transition: color 0.3s;
+
+  &:hover {
+    color: #0056b3; /* Color más oscuro al pasar el mouse */
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+  }
+}
+
+.join-button {
+  background-color:#1d1d1d; /* Color inicial del botón */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &.go {
+    background-color: #28a745; /* Color verde cuando está "¡Unido!" */
+  }
+}
+
+.join-button:hover {
+  background-color: #0056b3; /* Color al pasar el cursor en estado normal */
+}
+
+.join-button.go:hover {
+  background-color: #218838; /* Color al pasar el cursor en estado "¡Unido!" */
+}
