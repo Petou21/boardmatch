@@ -54,3 +54,18 @@ h2{
     color: #333;
   }
   
+  .congrats-message {
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+    background-color: #4caf50;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: opacity 0.5s;
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }

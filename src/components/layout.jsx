@@ -21,13 +21,7 @@ const Layout = () => {
       <div className="Layout">
         <div className="content">
           <div className='layout'>
-          <div className="container">
-            <a class="link" href="/">
-              <img class="logo-img" src={Logo} alt="Logo" ></img>
-              <h1 class="layout__title" >BoardMatch</h1>
-            </a>
-              <NavBar />
-          </div>
+            <NavBar />
         </div>
             <Routes>
               <Route path='/' element={<HomePage />} />
